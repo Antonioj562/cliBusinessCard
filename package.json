@@ -1,8 +1,8 @@
 {
-  "name": "clibusinesscard",
+  "name": "antoniobusinesscard",
   "version": "1.0.0",
   "description": "A business card that outputs to the terminal using npx",
-  "main": "index.mjs",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Antonioj562/cliBusinessCard.git"
@@ -10,7 +10,7 @@
   "author": "Antonioj562",
   "license": "ISC",
   "bin": {
-    "weepingCoder": "./index.js"
+    "weepingCoder": "./scripts/index.mjs"
   },
   "bugs": {
     "url": "https://github.com/Antonioj562/cliBusinessCard/issues"
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/Antonioj562/cliBusinessCard#readme",
   "dependencies": {
     "boxen": "^7.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "card" : "node ./scripts/index.mjs"
   }
 }

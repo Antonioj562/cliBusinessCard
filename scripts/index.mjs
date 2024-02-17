@@ -1,10 +1,10 @@
-#!/usr/bin/envnode
+#!/usr/bin/env node
 import boxen from "boxen";
 import chalk from "chalk";
 
 const boxenOptions = {
 	padding : 2,
-	width: 84,
+	width: 74,
 	title: "WeepingCoder",
 	titleAlignment: "center",
 	borderStyle: "double",
@@ -20,7 +20,7 @@ const links = [
     url: "    https://github.com/antonioj562",
   },
   {
-    name: chalk.hex("#fff").bgHex("#1DA1F2")("LinkedIn"),
+    name: chalk.hex("#fff").bgHex("#0077b5")("LinkedIn"),
     url: "   http://www.linkedin.com/in/antonio-loyola97",
   },
  {
