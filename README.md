@@ -5,5 +5,5 @@ Requirements:
    Node.js & npm
 
 Run:
-   To run on personal device run `npx antoniobusinescard` in the terminal window.
+   To run on personal device run `npx antoniobusinesscard` in the terminal window.
    Running this command will display a card in the terminal containing links to connect with me online.
